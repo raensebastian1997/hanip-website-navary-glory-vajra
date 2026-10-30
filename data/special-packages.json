@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "slug": "jasa-penataan-dokumen",
+      "label": "Jasa Penataan Dokumen",
+      "href": "/paket-khusus/jasa-penataan-dokumen",
+      "description": "Solusi untuk menata dokumen korporasi dan perizinan perusahaan serta mendata dokumen yang rusak, hilang, kedaluwarsa, atau belum dimiliki.",
+      "introduction": "Seiring berkembang dan membesarnya perusahaan, jumlah dokumen korporasi dan perizinan perusahaan juga semakin banyak. Hal ini terjadi karena adanya pendaftaran, perubahan, penambahan, penyesuaian, dan/atau perpanjangan dokumen agar sesuai dengan kondisi perusahaan. Banyaknya dokumen dapat membuat pengarsipan terabaikan: dokumen tidak tersusun urut, rusak, hilang, atau kedaluwarsa. Perusahaan juga mungkin belum mengetahui dokumen korporasi dan perizinan apa saja yang seharusnya dimiliki. Kami membantu menata dokumen korporasi dan perizinan perusahaan sekaligus memberikan konsultasi untuk menangani dokumen yang rusak, hilang, kedaluwarsa, atau belum dimiliki.",
+      "sections": [
+        {
+          "heading": "Apa saja dokumen korporasi perusahaan?",
+          "items": [
+            "Pendirian: Akta Pendirian, Surat Pengesahan Menteri Hukum dan Hak Asasi Manusia, serta Berita Negara Republik Indonesia.",
+            "Perubahan Akta Pendirian: Akta Perubahan Anggaran Dasar, Surat Persetujuan Menteri Hukum dan Hak Asasi Manusia, Surat Pemberitahuan Perubahan Anggaran Dasar, dan Surat Pemberitahuan Perubahan Data dari Menteri Hukum dan Hak Asasi Manusia.",
+            "Identitas pemegang saham: KTP dan NPWP untuk pemegang saham pribadi; dokumen badan hukum untuk pemegang saham berbentuk PT, yayasan, atau koperasi.",
+            "Daftar Pemegang Saham.",
+            "Daftar Khusus Pemegang Saham."
+          ]
+        },
+        {
+          "heading": "Apa saja dokumen perizinan perusahaan?",
+          "items": [
+            "Surat Keterangan Domisili.",
+            "Tanda Daftar Perusahaan/Nomor Induk Berusaha.",
+            "Izin Komersial/Operasional.",
+            "Surat Izin Usaha Perdagangan.",
+            "Izin Usaha Perusahaan.",
+            "Nomor Pokok Wajib Pajak.",
+            "Surat Keterangan Terdaftar.",
+            "Pengukuhan Pengusaha Kena Pajak.",
+            "Wajib Lapor Ketenagakerjaan.",
+            "Formulir Fasilitas Penyelenggaraan Kesejahteraan.",
+            "Peraturan Perusahaan.",
+            "Perizinan ketenagakerjaan asing: RPTKA, IMTA, KITAS, dan paspor."
+          ]
+        },
+        {
+          "heading": "Tujuan Penataan Dokumen",
+          "items": [
+            "Dokumen perusahaan tertata secara sistematis dan rapi.",
+            "Memudahkan perusahaan dalam mencari dokumen.",
+            "Memudahkan pencarian dokumen saat perusahaan menjalani audit keuangan, pajak, maupun hukum.",
+            "Membantu perusahaan memiliki dokumen yang disyaratkan oleh peraturan perundang-undangan."
+          ]
+        },
+        {
+          "heading": "Apa yang akan kami lakukan?",
+          "items": [
+            "Mengumpulkan dokumen korporasi.",
+            "Memeriksa dokumen korporasi dan perizinan.",
+            "Mendata dokumen yang rusak, hilang, kedaluwarsa, dan belum dimiliki perusahaan.",
+            "Mengklasifikasikan dokumen korporasi dan perizinan.",
+            "Mendokumentasikan dan menyusun dokumen sesuai urutan dan jenisnya.",
+            "Memindai dokumen agar perusahaan memiliki salinan digital."
+          ]
+        }
+      ]
+    }
+  ]
+}

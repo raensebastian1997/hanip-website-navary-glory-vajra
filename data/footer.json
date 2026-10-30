@@ -1,0 +1,46 @@
+{
+  "description": "Mitra legalitas bisnis Anda. Kami membantu pendirian PT, CV, virtual office, serta pengurusan izin usaha dengan proses yang jelas dan terpercaya.",
+  "contact": {
+    "address": "Grand Slipi Tower, Lantai 9 Unit O, Jl. Jend. S. Parman Kav. 22-24, Palmerah, Jakarta Barat 11480",
+    "phoneDisplay": "(021) 29021873",
+    "phoneHref": "tel:+622129021873",
+    "whatsappDisplay": "+62 812-1077-6636",
+    "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20berkonsultasi.",
+    "email": "halo@legalinnavary.id"
+  },
+  "groups": [
+    {
+      "title": "Navigasi",
+      "links": [
+        { "label": "Beranda", "href": "/" },
+        { "label": "Paket Kami", "href": "/#paket" },
+        { "label": "Keunggulan", "href": "/keunggulan" },
+        { "label": "FAQ", "href": "/faq" },
+        { "label": "Kontak", "href": "/kontak" }
+      ]
+    },
+    {
+      "title": "Layanan",
+      "links": [
+        { "label": "Pendirian PT", "href": "/paket/pendirian-pt" },
+        { "label": "Pendirian CV", "href": "/paket/pendirian-cv" },
+        { "label": "Perubahan Akta", "href": "/paket/perubahan-akta" },
+        { "label": "Virtual Office", "href": "/paket/virtual-office" },
+        { "label": "Perizinan & HKI", "href": "/paket/hak-kekayaan-intelektual" }
+      ]
+    },
+    {
+      "title": "Kontak",
+      "links": [
+        {
+          "label": "WhatsApp",
+          "href": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20berkonsultasi."
+        },
+        { "label": "(021) 29021873", "href": "tel:+622129021873" },
+        { "label": "halo@legalinnavary.id", "href": "mailto:halo@legalinnavary.id" }
+      ]
+    }
+  ],
+  "copyright": "© 2026 Navary Glory Vajra. Seluruh hak cipta dilindungi.",
+  "legalNote": "Navary Glory Vajra membantu pengurusan legalitas dan perizinan usaha untuk individu maupun perusahaan di seluruh Indonesia."
+}

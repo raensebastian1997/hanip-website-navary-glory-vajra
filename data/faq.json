@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "pns-pemegang-saham",
+      "question": "Bolehkah PNS menjadi pemegang saham?",
+      "answer": "PNS pada dasarnya tidak dilarang menjadi pemegang saham, tetapi diperlukan surat keterangan izin dari atasan untuk mengambil posisi tersebut."
+    },
+    {
+      "id": "bpjs-ketenagakerjaan",
+      "question": "Apakah perusahaan harus mendaftar BPJS Ketenagakerjaan?",
+      "answer": "Pendaftaran BPJS Ketenagakerjaan wajib bagi perusahaan dengan modal kelas menengah atau perusahaan yang memiliki izin khusus."
+    },
+    {
+      "id": "modal-dasar-setor",
+      "question": "Apa perbedaan modal dasar dan modal disetor?",
+      "answer": "Modal dasar adalah total modal yang dapat diterbitkan oleh perusahaan. Modal disetor adalah bagian dari modal dasar yang benar-benar dimasukkan ke rekening perusahaan."
+    },
+    {
+      "id": "kewajiban-pkp",
+      "question": "Apakah perusahaan harus mendaftar PKP?",
+      "answer": "PKP diwajibkan bagi perusahaan yang mengikuti proyek tender atau memiliki omzet di atas Rp4,8 miliar per tahun. Di luar ketentuan tersebut, PKP umumnya tidak wajib."
+    },
+    {
+      "id": "cv-menjadi-pt",
+      "question": "Bisakah CV berubah menjadi PT?",
+      "answer": "CV tidak dapat berubah langsung menjadi PT karena keduanya merupakan bentuk badan usaha yang berbeda. CV yang ingin menjadi PT harus memulai proses pendirian PT dari awal."
+    }
+  ]
+}

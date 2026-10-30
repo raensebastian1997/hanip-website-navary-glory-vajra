@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pengalaman",
+    "title": "Berpengalaman",
+    "description": "Lebih dari 1.000 perusahaan telah kami bantu mendirikan dan mengurus legalitasnya.",
+    "icon": "experience"
+  },
+  {
+    "id": "jaminan",
+    "title": "Jaminan Kepuasan 100%",
+    "description": "Tujuan kami adalah memberikan solusi legalitas yang tepat untuk kebutuhan bisnis Anda.",
+    "icon": "shield"
+  },
+  {
+    "id": "harga",
+    "title": "Harga Kompetitif",
+    "description": "Biaya transparan dan kompetitif, mulai dari Rp2,9 juta untuk pendirian PT.",
+    "icon": "value"
+  },
+  {
+    "id": "cepat",
+    "title": "Proses Cepat",
+    "description": "Rata-rata proses pendirian perusahaan selesai dalam 7 hari kerja.",
+    "icon": "speed"
+  },
+  {
+    "id": "menyeluruh",
+    "title": "Pendampingan Menyeluruh",
+    "description": "Kami tidak hanya mendirikan usaha Anda, tetapi juga membantu melindunginya.",
+    "icon": "growth"
+  },
+  {
+    "id": "praktis",
+    "title": "Praktis",
+    "description": "Siapkan dokumen dasar, tim kami membantu penjemputan dan pengantaran berkas.",
+    "icon": "practical"
+  },
+  {
+    "id": "layanan-24-jam",
+    "title": "Layanan 24 Jam",
+    "description": "Tim kami siap menjawab pertanyaan Anda kapan pun dibutuhkan.",
+    "icon": "support"
+  },
+  {
+    "id": "konsultasi-gratis",
+    "title": "Konsultasi Gratis",
+    "description": "Diskusikan kebutuhan legalitas perusahaan tanpa biaya, di mana pun Anda berada.",
+    "icon": "consultation"
+  }
+]

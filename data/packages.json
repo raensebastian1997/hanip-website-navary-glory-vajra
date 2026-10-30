@@ -1,0 +1,230 @@
+{
+  "categories": [
+    {
+      "id": "pendirian-pt",
+      "name": "Pendirian PT",
+      "description": "Pilih paket sesuai kebutuhan izin dan operasional usaha Anda."
+    },
+    {
+      "id": "cv-akta-vo",
+      "name": "CV, Perubahan Akta & Virtual Office",
+      "description": "Solusi untuk badan usaha CV, perubahan dokumen perusahaan, dan alamat usaha profesional."
+    },
+    {
+      "id": "perizinan-hki",
+      "name": "Perizinan, HKI & PT Perorangan",
+      "description": "Pengurusan izin usaha, perlindungan kekayaan intelektual, dan pendirian PT Perorangan."
+    }
+  ],
+  "items": [
+    {
+      "id": "pt-non-izin",
+      "categoryId": "pendirian-pt",
+      "name": "Pendirian PT Non Izin",
+      "price": "Rp2,9 juta",
+      "priceValue": 2900000,
+      "priceNote": "Sekali bayar",
+      "features": [
+        "Pengecekan dan pemesanan nama",
+        "Akta pendirian dari notaris",
+        "Pengesahan Kementerian Hukum dan HAM"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20paket%20Pendirian%20PT%20Non%20Izin.",
+      "highlighted": false,
+      "badge": null
+    },
+    {
+      "id": "pt-dan-izin",
+      "categoryId": "pendirian-pt",
+      "name": "Pendirian PT dan Izin",
+      "price": "Rp5 juta",
+      "priceValue": 5000000,
+      "priceNote": "Sekali bayar",
+      "features": [
+        "Pengecekan dan pemesanan nama",
+        "Akta pendirian dari notaris",
+        "Pengesahan Kementerian Hukum dan HAM",
+        "NPWP dan SKT Pajak",
+        "NIB melalui sistem OSS"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20paket%20Pendirian%20PT%20dan%20Izin.",
+      "highlighted": false,
+      "badge": null
+    },
+    {
+      "id": "pt-izin-vo",
+      "categoryId": "pendirian-pt",
+      "name": "Pendirian PT, Izin & Virtual Office",
+      "price": "Rp7,5 juta",
+      "priceValue": 7500000,
+      "priceNote": "Sekali bayar",
+      "features": [
+        "Pengecekan dan pemesanan nama",
+        "Akta pendirian dari notaris",
+        "Pengesahan Kementerian Hukum dan HAM",
+        "NPWP, SKT Pajak, dan NIB",
+        "Alamat virtual office selama 1 tahun",
+        "Layanan resepsionis dan penerimaan surat",
+        "Gratis pendaftaran EFIN",
+        "Gratis pembukaan rekening untuk KBLI risiko rendah"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20paket%20Pendirian%20PT%2C%20Izin%20dan%20Virtual%20Office.",
+      "highlighted": true,
+      "badge": "Paling Populer"
+    },
+    {
+      "id": "pt-lengkap",
+      "categoryId": "pendirian-pt",
+      "name": "Pendirian PT, Izin, VO & PKP",
+      "price": "Rp9 juta",
+      "priceValue": 9000000,
+      "priceNote": "Sekali bayar",
+      "features": [
+        "Pengecekan dan pemesanan nama",
+        "Akta pendirian dari notaris",
+        "Pengesahan Kementerian Hukum dan HAM",
+        "NPWP, SKT Pajak, dan NIB",
+        "Alamat virtual office dan penerimaan surat",
+        "Layanan resepsionis dan telepon bersama",
+        "Pendaftaran PKP",
+        "Gratis pendaftaran EFIN",
+        "Gratis pembukaan rekening untuk KBLI risiko rendah"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20paket%20Pendirian%20PT%20Lengkap.",
+      "highlighted": false,
+      "badge": null
+    },
+    {
+      "id": "cv-dan-izin",
+      "categoryId": "cv-akta-vo",
+      "name": "Pendirian CV dan Izin",
+      "price": "Rp4 juta",
+      "priceValue": 4000000,
+      "priceNote": "Sekali bayar",
+      "features": [
+        "Pemesanan nama CV",
+        "Akta pendirian dari notaris",
+        "SK Kementerian Hukum dan HAM",
+        "NPWP dan SKT Pajak",
+        "Akun OSS RBA dan NIB",
+        "Pendaftaran API dan kepabeanan",
+        "Sertifikat standar untuk KBLI risiko menengah rendah"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20paket%20Pendirian%20CV%20dan%20Izin.",
+      "highlighted": false,
+      "badge": null
+    },
+    {
+      "id": "cv-izin-vo",
+      "categoryId": "cv-akta-vo",
+      "name": "Pendirian CV, Izin & Virtual Office",
+      "price": "Rp6,5 juta",
+      "priceValue": 6500000,
+      "priceNote": "Sekali bayar",
+      "features": [
+        "Pemesanan nama CV",
+        "Akta pendirian dari notaris",
+        "SK Kementerian Hukum dan HAM",
+        "NPWP, SKT Pajak, dan NIB",
+        "Pendaftaran API dan kepabeanan",
+        "Sertifikat standar untuk KBLI risiko menengah rendah",
+        "Alamat virtual office selama 1 tahun",
+        "Layanan resepsionis dan telepon bersama",
+        "Gratis pendaftaran EFIN dan pembukaan rekening perusahaan"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20paket%20Pendirian%20CV%2C%20Izin%20dan%20Virtual%20Office.",
+      "highlighted": false,
+      "badge": null
+    },
+    {
+      "id": "perubahan-akta",
+      "categoryId": "cv-akta-vo",
+      "name": "Perubahan Akta PT & CV",
+      "price": "Rp2,5 juta",
+      "priceValue": 2500000,
+      "priceNote": "Mulai dari",
+      "features": [
+        "Perubahan nama perusahaan",
+        "Perubahan tempat kedudukan dan alamat",
+        "Perubahan maksud dan tujuan",
+        "Perubahan modal",
+        "Perubahan pemegang saham",
+        "Perubahan direksi dan dewan komisaris",
+        "Perubahan lain sesuai kebutuhan"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20perubahan%20akta%20PT%20atau%20CV.",
+      "highlighted": false,
+      "badge": null
+    },
+    {
+      "id": "virtual-office",
+      "categoryId": "cv-akta-vo",
+      "name": "Virtual Office",
+      "price": "Rp2,5 juta",
+      "priceValue": 2500000,
+      "priceNote": "Mulai dari",
+      "features": [
+        "Alamat virtual office 1 tahun di lokasi strategis",
+        "Penerimaan surat dan paket",
+        "Layanan resepsionis profesional",
+        "Fasilitas telepon bersama"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20paket%20Virtual%20Office.",
+      "highlighted": false,
+      "badge": null
+    },
+    {
+      "id": "hki",
+      "categoryId": "perizinan-hki",
+      "name": "Pendaftaran Merek, Hak Cipta & Paten",
+      "price": "Rp2 juta",
+      "priceValue": 2000000,
+      "priceNote": "Mulai dari",
+      "features": [
+        "Konsultasi jenis perlindungan yang sesuai",
+        "Penelusuran merek sebelum pendaftaran",
+        "Penyiapan dokumen pendaftaran",
+        "Pendampingan proses hingga selesai"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20pendaftaran%20merek%2C%20hak%20cipta%2C%20atau%20paten.",
+      "highlighted": false,
+      "badge": null
+    },
+    {
+      "id": "izin-oss",
+      "categoryId": "perizinan-hki",
+      "name": "Pengurusan Izin OSS",
+      "price": "Rp1,5 juta",
+      "priceValue": 1500000,
+      "priceNote": "Mulai dari",
+      "features": [
+        "Pendampingan pembuatan akun OSS",
+        "Pengurusan NIB",
+        "Konsultasi penentuan KBLI",
+        "Sertifikat standar sesuai tingkat risiko"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20pengurusan%20izin%20OSS.",
+      "highlighted": false,
+      "badge": null
+    },
+    {
+      "id": "pt-perorangan",
+      "categoryId": "perizinan-hki",
+      "name": "Pendirian PT Perorangan",
+      "price": "Rp1,5 juta",
+      "priceValue": 1500000,
+      "priceNote": "Sekali bayar",
+      "features": [
+        "Reservasi nama PT Perorangan",
+        "Surat pernyataan Kemenkumham",
+        "Sertifikat pendirian Kemenkumham",
+        "E-NPWP",
+        "NIB berbasis risiko",
+        "Sertifikat standar untuk KBLI risiko rendah"
+      ],
+      "whatsappLink": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20konsultasi%20paket%20Pendirian%20PT%20Perorangan.",
+      "highlighted": false,
+      "badge": "Baru"
+    }
+  ]
+}
