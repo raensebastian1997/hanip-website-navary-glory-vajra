@@ -1,12 +1,12 @@
 'use client';
 
 import { useEffect, useState, type ReactElement } from 'react';
+import Link from 'next/link';
 import { Logo } from '@/components/Logo';
 import { CloseIcon, MenuIcon, PhoneIcon, MailIcon, WhatsAppIcon } from '@/components/icons';
 import { buildWhatsAppLink } from '@/lib/whatsapp';
 import { getSpecialPackagesData } from '@/lib/getData';
 import type { SiteData } from '@/types/site';
-import Link from 'next/link';
 
 interface NavLink {
   readonly label: string;
@@ -100,9 +100,9 @@ export function Navbar({ site }: NavbarProps): ReactElement {
           aria-label="Navigasi utama"
           className="container-page flex h-20 items-center justify-between gap-6"
         >
-          <a href="/" aria-label={`${site.name} - Beranda`} onClick={closeMenu}>
+          <Link href="/" aria-label={`${site.name} - Beranda`} onClick={closeMenu}>
             <Logo />
-          </a>
+          </Link>
 
           <ul className="hidden items-center gap-1 lg:flex">
             {NAV_LINKS.map((link) => (link.label === 'Paket Kami' || link.label === 'Paket Khusus') ? (

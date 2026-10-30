@@ -1,4 +1,5 @@
 import type { ReactElement } from 'react';
+import Link from 'next/link';
 import { Logo } from '@/components/Logo';
 import {
   MailIcon,
@@ -23,9 +24,9 @@ export function Footer({ site, data }: FooterProps): ReactElement {
     <footer id="kontak" className="bg-ink text-white">
       <div className="container-page grid gap-12 py-16 lg:grid-cols-5">
         <div className="lg:col-span-2">
-          <a href="/" aria-label={`${site.name} - Beranda`}>
+          <Link href="/" aria-label={`${site.name} - Beranda`}>
             <Logo variant="light" />
-          </a>
+          </Link>
           <p className="mt-5 max-w-sm text-sm leading-7 text-white/60">
             {data.description}
           </p>
