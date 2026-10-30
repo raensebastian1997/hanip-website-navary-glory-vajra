@@ -1,32 +1,41 @@
 {
-  "eyebrow": "Konsultan Legalitas Bisnis",
-  "title": "Bangun bisnis Anda dengan",
-  "highlight": "legalitas yang kokoh",
-  "description": "Pendirian PT, CV, PT Perorangan, virtual office, hingga perizinan usaha ditangani oleh tim profesional dengan proses yang jelas dan selesai tepat waktu.",
-  "pricePrefix": "Mulai dari",
-  "price": "Rp2,9 juta",
-  "priceNote": "Sudah termasuk akta pendirian dan pengesahan Kemenkumham.",
-  "primaryCta": {
-    "label": "Konsultasi Gratis via WhatsApp",
-    "href": "https://api.whatsapp.com/send?phone=6281210776636&text=Halo%20Navary%20Glory%20Vajra%2C%20saya%20ingin%20berkonsultasi."
-  },
-  "secondaryCta": {
-    "label": "Lihat Paket",
-    "href": "#paket"
-  },
-  "stats": [
-    { "value": "1.000+", "label": "Perusahaan terbantu" },
-    { "value": "7 hari", "label": "Rata-rata proses" },
-    { "value": "24 jam", "label": "Layanan konsultasi" }
-  ],
-  "trustNote": "Konsultasi awal tanpa biaya. Tim kami siap membantu kebutuhan legalitas Anda.",
-  "documentTitle": "Dokumen Perusahaan",
-  "documentStatus": "Dalam proses",
-  "documentItems": [
-    "Pengecekan & pemesanan nama",
-    "Akta pendirian dari notaris",
-    "Pengesahan Kemenkumham",
-    "NPWP, NIB & izin usaha"
-  ],
-  "documentFooter": "Berkas terverifikasi dan siap diserahkan"
+    "eyebrow":  "Konsultan Legalitas Bisnis",
+    "title":  "Bangun bisnis Anda dengan",
+    "highlight":  "legalitas yang kokoh",
+    "description":  "Pendirian PT, CV, PT Perorangan, virtual office, hingga perizinan usaha ditangani oleh tim profesional dengan proses yang jelas dan selesai tepat waktu.",
+    "pricePrefix":  "Mulai dari",
+    "price":  "Rp2,9 juta",
+    "priceNote":  "Sudah termasuk akta pendirian dan pengesahan Kemenkumham.",
+    "primaryCta":  {
+                       "label":  "Konsultasi Gratis via WhatsApp",
+                       "href":  "https://api.whatsapp.com/send?phone=6285782294804\u0026text=Halo!%20Terima%20kasih%20telah%20menghubungi%20Legalin%20Navary%20%F0%9F%91%8B%0A%0ALayanan%20konsultasi%20dan%20pemesanan%20kami%20aktif%2024%2F7.%20Mohon%20infokan%20kebutuhan%20legalitas%20Anda%3A%0A%0A%3E%20Pendirian%20PT%20%2F%20PT%20Perorangan%0A%0A%3E%20Pendirian%20CV%0A%0A%3E%20Pengurusan%20NIB%20%2F%20OSS%0A%0A%3E%20Pendaftaran%20Merek%20(HKI)%0A%0A%3E%20Konsultasi%20Lainnya%0A%0ATim%20kami%20akan%20segera%20merespons%20pesan%20Anda%20secara%20rinci.%20Terima%20kasih!"
+                   },
+    "secondaryCta":  {
+                         "label":  "Lihat Paket",
+                         "href":  "#paket"
+                     },
+    "stats":  [
+                  {
+                      "value":  "1.000+",
+                      "label":  "Perusahaan terbantu"
+                  },
+                  {
+                      "value":  "7 hari",
+                      "label":  "Rata-rata proses"
+                  },
+                  {
+                      "value":  "24 jam",
+                      "label":  "Layanan konsultasi"
+                  }
+              ],
+    "trustNote":  "Konsultasi awal tanpa biaya. Tim kami siap membantu kebutuhan legalitas Anda.",
+    "documentTitle":  "Dokumen Perusahaan",
+    "documentStatus":  "",
+    "documentItems":  [
+                          "Pengecekan \u0026 pemesanan nama",
+                          "Akta pendirian dari notaris",
+                          "Pengesahan Kemenkumham",
+                          "NPWP, NIB \u0026 izin usaha"
+                      ],
+    "documentFooter":  "Berkas terverifikasi dan siap diserahkan"
 }
