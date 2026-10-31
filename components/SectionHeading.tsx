@@ -26,10 +26,7 @@ export function SectionHeading({
 
   return (
     <div className={`max-w-3xl ${alignment}`}>
-      <p className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.24em] text-brand-600">
-        <span aria-hidden="true" className="h-px w-8 bg-brand-600" />
-        {eyebrow}
-      </p>
+     
       <Heading
         id={id}
         className={`font-display text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-[2.75rem] ${titleColor}`}

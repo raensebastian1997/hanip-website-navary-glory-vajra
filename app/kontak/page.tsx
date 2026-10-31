@@ -17,10 +17,10 @@ export default function ContactPage(): ReactElement {
     <section className="section-pad bg-cream">
       <div className="container-page">
         <div className="max-w-3xl">
-          <p className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.24em] text-brand-600">
+          <h2 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.24em] text-brand-600">
             <span aria-hidden="true" className="h-px w-8 bg-brand-600" />
             Hubungi Kami
-          </p>
+          </h2>
           <h1 className="font-display text-3xl font-extrabold tracking-tight text-ink sm:text-4xl lg:text-[2.75rem]">
             Mari bicarakan kebutuhan legalitas bisnis Anda
           </h1>

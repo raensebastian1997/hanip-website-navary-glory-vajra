@@ -46,7 +46,7 @@ export function CtaSection({ site }: CtaSectionProps): ReactElement {
             className="btn border border-white/30 text-white hover:bg-white/10 focus-visible:ring-white"
           >
             <PhoneIcon className="h-4 w-4" />
-            (021) 29021873
+            0857-8229-4804
           </a>
         </div>
       </div>

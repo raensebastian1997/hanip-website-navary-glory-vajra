@@ -43,12 +43,20 @@ const NAV_LINKS: readonly NavLink[] = [
 
 export function Navbar({ site }: NavbarProps): ReactElement {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isScrolled, setIsScrolled] = useState<boolean>(false);
   const [isPackageMenuOpen, setIsPackageMenuOpen] = useState<boolean>(false);
   const [isSpecialMenuOpen, setIsSpecialMenuOpen] = useState<boolean>(false);
   const whatsappHref = buildWhatsAppLink(
     site.whatsapp.number,
     site.whatsapp.defaultMessage,
   );
+
+  useEffect(() => {
+    const onScroll = (): void => setIsScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent): void => {
@@ -73,15 +81,29 @@ export function Navbar({ site }: NavbarProps): ReactElement {
 
   return (
     <header className="sticky top-0 z-40">
-      <div className="hidden bg-ink text-white/70 lg:block">
-        <div className="container-page flex h-10 items-center justify-between text-xs">
+      <div
+        aria-hidden={isScrolled}
+        inert={isScrolled}
+        className="hidden overflow-hidden bg-ink text-white/70 lg:block motion-reduce:!transition-none"
+        style={{
+          height: isScrolled ? 0 : 40,
+          transition: 'height 450ms cubic-bezier(0.22, 1, 0.36, 1)',
+          pointerEvents: isScrolled ? 'none' : 'auto',
+        }}
+      >
+        <div className="container-page flex h-10 items-center justify-between text-xs motion-reduce:!transition-none"
+          style={{
+            opacity: isScrolled ? 0 : 1,
+            transform: isScrolled ? 'translateY(-40px)' : 'translateY(0)',
+            transition: 'opacity 300ms ease, transform 450ms cubic-bezier(0.22, 1, 0.36, 1)',
+          }}>
           <div className="flex items-center gap-6">
             <a
               href="tel:+622129021873"
               className="inline-flex items-center gap-2 transition hover:text-white"
             >
               <PhoneIcon className="h-3.5 w-3.5" />
-              (021) 29021873
+              0857-8229-4804
             </a>
             <a
               href="mailto:halo@legalinnavary.id"

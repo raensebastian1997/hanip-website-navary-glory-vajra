@@ -4,14 +4,12 @@ import { Hero } from '@/components/Hero';
 import { JsonLd } from '@/components/JsonLd';
 import { Packages } from '@/components/Packages';
 import {
-  getHeroData,
   getPackagesData,
   getSiteData,
 } from '@/lib/getData';
 import { getStructuredData } from '@/lib/seo';
 
 export default function HomePage(): ReactElement {
-  const hero = getHeroData();
   const packages = getPackagesData();
   const structuredData = getStructuredData();
 
@@ -20,7 +18,7 @@ export default function HomePage(): ReactElement {
       {structuredData.map((schema, index) => (
         <JsonLd key={`${schema['@type']}-${index}`} data={schema} />
       ))}
-      <Hero data={hero} />
+      <Hero />
       <Packages data={packages} />
       <CtaSection site={getSiteData()} />
     </>
