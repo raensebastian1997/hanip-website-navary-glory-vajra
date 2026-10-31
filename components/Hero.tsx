@@ -53,7 +53,7 @@ export function Hero(): ReactElement {
         aria-hidden="true"
         className="absolute inset-0 bg-cover bg-center transition-opacity duration-500"
         style={{
-          backgroundImage: `linear-gradient(90deg, rgba(11, 20, 38, .94) 0%, rgba(11, 20, 38, .78) 52%, rgba(11, 20, 38, .48) 100%), url("${activeSlide.image}")`,
+          backgroundImage: `linear-gradient(90deg, rgba(11, 20, 38, .94) 0%, rgba(11, 20, 38, .78) 52%, rgba(11, 20, 38, .48) 100%), url("${activeSlide?.image}")`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
         }}
@@ -97,7 +97,7 @@ export function Hero(): ReactElement {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                href={activeSlide.ctaHref}
+                href={activeSlide?.ctaHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary justify-center"
