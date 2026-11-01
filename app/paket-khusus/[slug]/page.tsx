@@ -51,34 +51,34 @@ export default async function SpecialPackagePage({ params }: SpecialPackagePageP
             <span aria-hidden="true" className="h-px w-8 bg-brand-600" />
             Paket Khusus
           </p>
-          <h1 className="font-display text-3xl font-extrabold tracking-tight text-ink sm:text-4xl lg:text-[2.75rem]">
+          <h1 className="font-display text-3xl font-extrabold tracking-tight text-brand-600 sm:text-4xl lg:text-[2.75rem]">
             {item.label}
           </h1>
         </div>
 
-        <p className="mt-8 max-w-4xl text-base leading-8 text-ink/70 sm:text-lg">
+        <p className="mt-8 max-w-4xl text-base leading-8 text-ink/75 sm:text-lg">
           {item.introduction}
         </p>
 
         <div className="mt-12 grid gap-6 lg:grid-cols-2">
           {item.sections.map((section) => (
-            <section key={section.heading} className="rounded-3xl border border-ink/10 bg-white p-6 shadow-sm sm:p-8">
-              <h2 className="font-display text-xl font-extrabold text-ink sm:text-2xl">
+            <section key={section.heading} className="rounded-3xl border border-ink/15 bg-white p-6 shadow-sm sm:p-8">
+              <h2 className="font-display text-xl font-extrabold text-brand-700 sm:text-2xl">
                 {section.heading}
               </h2>
-              <ol className="mt-5 list-decimal space-y-3 pl-5 text-sm leading-7 text-ink/70 sm:text-base">
+              <ol className="mt-5 list-decimal space-y-3 pl-5 text-sm leading-7 text-ink/75 sm:text-base">
                 {section.items.map((entry) => <li key={entry} className="pl-1">{entry}</li>)}
               </ol>
             </section>
           ))}
         </div>
 
-        <div className="mt-12 rounded-3xl bg-ink p-8 text-white sm:flex sm:items-center sm:justify-between sm:gap-8">
+        <div className="mt-12 rounded-3xl bg-brand-600 p-8 text-white sm:flex sm:items-center sm:justify-between sm:gap-8">
           <div>
             <h2 className="font-display text-2xl font-extrabold">Butuh bantuan menata dokumen perusahaan?</h2>
-            <p className="mt-2 text-sm leading-6 text-white/70">Hubungi tim kami untuk bertanya tentang harga dan konsultasi layanan.</p>
+            <p className="mt-2 text-sm leading-6 text-white/85">Hubungi tim kami untuk bertanya tentang harga dan konsultasi layanan.</p>
           </div>
-          <a href={whatsappHref} target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-6 shrink-0 sm:mt-0">
+          <a href={whatsappHref} target="_blank" rel="noopener noreferrer" className="btn mt-6 shrink-0 bg-white text-brand-700 hover:bg-accent-100 hover:text-brand-800 focus-visible:ring-accent-300 sm:mt-0">
             <WhatsAppIcon className="h-4 w-4" />
             Tanya Harga
           </a>

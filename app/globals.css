@@ -12,12 +12,27 @@ html {
 }
 
 body {
-  @apply bg-white font-sans text-ink antialiased;
+  @apply bg-cream font-sans text-ink antialiased;
 }
 
 ::selection {
-  background-color: #d80000;
+  background-color: #0f6e78;
   color: #ffffff;
+}
+
+.page-transition {
+  animation: page-slide-in 520ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+@keyframes page-slide-in {
+  from {
+    opacity: 0;
+    transform: translate3d(-40px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .bg-grid {
@@ -29,8 +44,8 @@ body {
 
 .hero-glow {
   background:
-    radial-gradient(58% 58% at 85% 12%, rgba(216, 0, 0, 0.5), transparent 72%),
-    radial-gradient(45% 45% at 6% 92%, rgba(201, 162, 39, 0.12), transparent 70%);
+    radial-gradient(58% 58% at 85% 12%, rgba(17, 168, 180, 0.42), transparent 72%),
+    radial-gradient(45% 45% at 6% 92%, rgba(6, 92, 140, 0.55), transparent 70%);
 }
 
 @layer components {
@@ -47,15 +62,19 @@ body {
   }
 
   .btn-primary {
-    @apply bg-brand-600 text-white shadow-lg shadow-brand-600/20 hover:bg-brand-700 focus-visible:ring-brand-600;
+    @apply bg-brand-600 text-white shadow-lg shadow-brand-600/25 hover:bg-accent-700 focus-visible:ring-accent-600;
+  }
+
+  .btn-secondary {
+    @apply border border-accent-600 bg-white text-accent-700 hover:bg-accent-50 focus-visible:ring-accent-600;
   }
 
   .btn-outline-light {
-    @apply border border-white/25 text-white hover:bg-white/10 focus-visible:ring-white;
+    @apply border border-white/40 text-white hover:border-accent-300 hover:bg-white/10 hover:text-accent-200 focus-visible:ring-accent-300;
   }
 
   .btn-outline-dark {
-    @apply border border-ink/15 text-ink hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700 focus-visible:ring-brand-600;
+    @apply border border-ink/20 text-ink hover:border-accent-600 hover:bg-accent-50 hover:text-accent-700 focus-visible:ring-accent-600;
   }
 }
 
@@ -65,6 +84,90 @@ body {
 
 .faq-item[open] .faq-icon {
   transform: rotate(45deg);
+}
+
+.hero-slide-enter {
+  animation: hero-enter 420ms ease-out both;
+}
+
+.hero-eyebrow-text {
+  display: inline-block;
+  animation: eyebrow-enter 560ms cubic-bezier(0.2, 0.75, 0.25, 1) 100ms both;
+}
+
+.hero-title-slide {
+  --title-slide-x: -2.5rem;
+  display: block;
+  animation: title-slide-in 700ms cubic-bezier(0.16, 0.84, 0.24, 1) 60ms both;
+  will-change: transform, opacity;
+}
+
+.hero-progress {
+  width: 0;
+  animation-name: progress-fill;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.hero-bg-enter {
+  animation: hero-bg-fade 700ms ease-out both;
+}
+
+@keyframes hero-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes hero-bg-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes eyebrow-enter {
+  from { opacity: 0; filter: blur(4px); }
+  to { opacity: 1; filter: blur(0); }
+}
+
+@keyframes title-slide-in {
+  from {
+    opacity: 0;
+    transform: translate3d(var(--title-slide-x), 0, 0);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    filter: blur(0);
+  }
+}
+
+@keyframes progress-fill {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+@media (min-width: 640px) {
+  .hero-title-slide {
+    --title-slide-x: -4rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide-enter,
+  .hero-eyebrow-text,
+  .hero-title-slide,
+  .hero-bg-enter {
+    animation: none;
+  }
+
+  .page-transition {
+    animation: none;
+  }
+
+  .hero-progress {
+    animation: none;
+    width: 100%;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

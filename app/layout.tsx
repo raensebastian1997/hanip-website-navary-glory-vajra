@@ -25,6 +25,9 @@ const site = getSiteData();
 const footer = getFooterData();
 
 export const metadata: Metadata = {
+  verification: {
+    google: 'Xeiz1k8VkRL24Fk_4j_DoYGw9aATj1clpmJP9bfsWR4',
+  },
   metadataBase: new URL(site.url),
   title: {
     default: `${site.name} | ${site.title}`,
@@ -108,7 +111,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#d80000',
+  themeColor: '#065C8C',
   colorScheme: 'light',
 };
 

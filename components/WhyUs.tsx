@@ -12,7 +12,7 @@ export function WhyUs({ items, headingLevel = 'h2' }: WhyUsProps): ReactElement 
   return (
     <section
       id="keunggulan"
-      className="section-pad bg-white"
+      className="section-pad bg-cream"
       aria-labelledby="keunggulan-title"
     >
       <div className="container-page">
@@ -29,15 +29,15 @@ export function WhyUs({ items, headingLevel = 'h2' }: WhyUsProps): ReactElement 
           {items.map((item) => (
             <article
               key={item.id}
-              className="group rounded-3xl border border-ink/10 bg-white p-6 transition hover:-translate-y-1 hover:border-brand-200 hover:shadow-card"
+              className="group rounded-3xl border border-ink/15 bg-white p-6 transition hover:-translate-y-1 hover:border-accent-300 hover:shadow-card"
             >
-              <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-50 text-brand-600 transition group-hover:bg-brand-600 group-hover:text-white">
+              <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-accent-50 text-accent-700 transition group-hover:bg-accent-600 group-hover:text-white">
                 <WhyUsGlyph name={item.icon} className="h-6 w-6" />
               </span>
               <h3 className="mt-5 font-display text-lg font-extrabold text-ink">
                 {item.title}
               </h3>
-              <p className="mt-2 text-sm leading-6 text-ink/60">
+              <p className="mt-2 text-sm leading-6 text-ink/75">
                 {item.description}
               </p>
             </article>

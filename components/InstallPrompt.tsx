@@ -83,16 +83,16 @@ export function InstallPrompt({ appName }: InstallPromptProps): ReactElement | n
   }
 
   return (
-    <div className="fixed inset-x-4 bottom-24 z-50 mx-auto max-w-md rounded-2xl border border-ink/10 bg-white p-4 shadow-float sm:hidden">
+    <div className="fixed inset-x-4 bottom-24 z-50 mx-auto max-w-md rounded-2xl border border-ink/15 bg-white p-4 shadow-float sm:hidden">
       <div className="flex items-start gap-3">
-        <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600">
+        <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-accent-50 text-accent-700">
           <DownloadIcon className="h-5 w-5" />
         </span>
         <div className="min-w-0 flex-1">
           <p className="font-display text-sm font-extrabold text-ink">
             Pasang {appName}
           </p>
-          <p className="mt-1 text-xs leading-5 text-ink/55">
+          <p className="mt-1 text-xs leading-5 text-ink/75">
             Akses lebih cepat langsung dari layar utama.
           </p>
           <div className="mt-3 flex gap-2">
@@ -109,7 +109,7 @@ export function InstallPrompt({ appName }: InstallPromptProps): ReactElement | n
             <button
               type="button"
               onClick={handleDismiss}
-              className="btn min-h-9 border border-ink/10 px-4 py-2 text-xs text-ink/60 hover:bg-ink/5"
+              className="btn min-h-9 border border-ink/15 px-4 py-2 text-xs text-ink/75 hover:border-accent-400 hover:bg-accent-50 hover:text-accent-700"
             >
               Nanti
             </button>
@@ -119,7 +119,7 @@ export function InstallPrompt({ appName }: InstallPromptProps): ReactElement | n
           type="button"
           onClick={handleDismiss}
           aria-label="Tutup dialog pasang aplikasi"
-          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-ink/40 transition hover:bg-ink/5 hover:text-ink"
+          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-ink/60 transition hover:bg-accent-50 hover:text-accent-700"
         >
           <CloseIcon className="h-4 w-4" />
         </button>

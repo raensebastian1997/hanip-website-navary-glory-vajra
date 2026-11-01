@@ -19,8 +19,8 @@ export function SectionHeading({
   align = 'left',
   level = 'h2',
 }: SectionHeadingProps): ReactElement {
-  const titleColor = tone === 'light' ? 'text-white' : 'text-ink';
-  const descriptionColor = tone === 'light' ? 'text-white/70' : 'text-ink/65';
+  const titleColor = tone === 'light' ? 'text-white' : 'text-brand-600';
+  const descriptionColor = tone === 'light' ? 'text-white/85' : 'text-ink/75';
   const alignment = align === 'center' ? 'mx-auto text-center' : 'text-left';
   const Heading = level;
 
